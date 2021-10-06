@@ -1,0 +1,27 @@
+language: FR
+nav:
+  about: A propos
+  skills: Compétences
+title:
+  h1-1: Développeur
+  h1-2: front-end
+  button: Disponible pour travail en freelance
+about:
+  title: A propos de moi !
+  one: J'apprend la programmation en autodidacte depuis maintenant 5 ans.
+  two: J'ai commencé par Wordpress, HTML, CSS, Javascript et enfin Vue JS. Sans oublier les nombreux outils, frameworks CSS et librairies.
+  three: J'ai eu l'occasion de réalisé plusieurs petits projets en freelance que vous pouvez retrouver sur mon portfolio et j'ai pour objectif de devenir indépendant en travaillant sur de plus gros projet.
+skills:
+  title: Mes compétences
+faq:
+  title-one: Quels sont vos tarifs ?
+  one: La tarification dépend du projet et surtout du temps qui sera nécessaire pour le mener à bien. À titre indicatif mon tarif journalier moyen se situe aux alentour de 200€/jour.
+  title-two: Effectuez-vous des missions en Agence ?
+  two: J'effectue l'ensemble de mes missions à distance.
+  title-three: Faites-vous la partie design des projets ?
+  three: Je ne suis malheureusement pas en capacité d'effectuer le design d'une application aussi il sera nécessaire de fournir le design si la mission le nécessite.
+Contact:
+  text: Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail qu'il représente. Pour obtenir un devis, préciser le dans le message s'il vous plaît.
+  name: Nom
+  submit: Envoyer
+

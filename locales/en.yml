@@ -1,0 +1,26 @@
+language: EN
+nav:
+  about: About
+  skills: Skills
+title:
+  h1-1: Front end
+  h1-2: Developer
+  button: Available for freelance work
+about:
+  title: About me!
+  one: I have been learning programming on my own for 5 years now.
+  two: I started with Wordpress, HTML, CSS, Javascript and finally Vue JS. Without forgetting the numerous tools, CSS frameworks and libraries.
+  three: I had the opportunity to do several small freelance projects that you can find on my portfolio and I aim to become independent by working on larger projects.
+skills:
+  title: My Skills
+faq:
+  title-one: What are your prices?
+  one: The pricing depends on the project and especially on the time that will be needed to complete it. As an indication my average daily rate is around 200$/day.
+  title-two: Do you do agency work?
+  two: I carry out all my missions remotely.
+  title-three: Do you do the design part of the projects?
+  three: I am unfortunately not able to design an application so it will be necessary to provide the design if the mission requires it.
+Contact:
+  text: Please give as much detail as possible about the project so that I can properly assess the workload it represents. To get a quote, please specify it in the message.
+  name: Name
+  submit: Send

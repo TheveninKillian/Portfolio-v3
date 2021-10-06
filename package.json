@@ -1,0 +1,39 @@
+{
+  "name": "portfolio-v3",
+  "description": "My professional portfolio",
+  "version": "3.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Killian Thevenin",
+    "email": "thevenin.killian@gmail.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "16.10.2",
+    "@vueuse/core": "6.5.3",
+    "aos": "^2.3.4",
+    "vue": "3.2.19",
+    "vue-i18n": "9.1.7",
+    "vue-window-size": "^1.1.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "0.9.0",
+    "@iconify/json": "1.1.409",
+    "@intlify/vite-plugin-vue-i18n": "2.4.0",
+    "@vitejs/plugin-vue": "1.9.2",
+    "@vue/compiler-sfc": "3.2.19",
+    "cross-env": "7.0.3",
+    "eslint": "7.32.0",
+    "sass": "1.42.1",
+    "unplugin-auto-import": "0.4.10",
+    "unplugin-icons": "0.11.4",
+    "unplugin-vue-components": "0.15.6",
+    "vite": "2.6.2",
+    "vite-plugin-windicss": "1.4.8",
+    "windicss": "3.1.7"
+  }
+}

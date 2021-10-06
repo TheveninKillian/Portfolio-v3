@@ -1,0 +1,8 @@
+{
+  "iridium.npm.packageManager": "pnpm",
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "volar.takeOverBuiltinTsExtension": false,
+  "volar.checkVueTscVersion": false
+}
