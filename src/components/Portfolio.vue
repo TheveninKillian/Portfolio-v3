@@ -77,6 +77,10 @@ const portfolio = reactive({
       }
 
       div{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+
         @include breakpoint(sm){
           width: calc(100% / 2 - 10px);
         }
@@ -89,6 +93,7 @@ const portfolio = reactive({
         &:nth-child(even){
           @include breakpoint(sm){
             margin-left: 10px;
+            margin-right: 0;
           }
 
           @include breakpoint(md){
@@ -99,6 +104,7 @@ const portfolio = reactive({
         &:nth-child(odd){
           @include breakpoint(sm){
             margin-right: 10px;
+            margin-left: 0;
           }
 
           @include breakpoint(md){
