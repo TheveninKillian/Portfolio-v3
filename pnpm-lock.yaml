@@ -7,7 +7,7 @@ specifiers:
   '@types/node': 16.10.2
   '@vitejs/plugin-vue': 1.9.2
   '@vue/compiler-sfc': 3.2.19
-  '@vueuse/core': 6.5.3
+  '@vueuse/core': 6.9.2
   aos: ^2.3.4
   cross-env: 7.0.3
   eslint: 7.32.0
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   '@types/node': 16.10.2
-  '@vueuse/core': 6.5.3_vue@3.2.19
+  '@vueuse/core': 6.9.2_vue@3.2.19
   aos: 2.3.4
   vue: 3.2.19
   vue-i18n: 9.1.7_vue@3.2.19
@@ -39,7 +39,7 @@ devDependencies:
   cross-env: 7.0.3
   eslint: 7.32.0
   sass: 1.42.1
-  unplugin-auto-import: 0.4.10_@vueuse+core@6.5.3+vite@2.6.2
+  unplugin-auto-import: 0.4.10_@vueuse+core@6.9.2+vite@2.6.2
   unplugin-icons: 0.11.4_d11992b8ccac8b14898f380351be585a
   unplugin-vue-components: 0.15.6_vite@2.6.2+vue@3.2.19
   vite: 2.6.2_sass@1.42.1
@@ -742,8 +742,8 @@ packages:
   /@vue/shared/3.2.19:
     resolution: {integrity: sha512-Knqhx7WieLdVgwCAZgTVrDCXZ50uItuecLh9JdLC8O+a5ayaSyIQYveUK3hCRNC7ws5zalHmZwfdLMGaS8r4Ew==}
 
-  /@vueuse/core/6.5.3_vue@3.2.19:
-    resolution: {integrity: sha512-o3CTu4nEqs371sDY5qLBX0r4QOm6GVpm3ApQc2Y+p8OMI2rRGartQo8xRykpUfsyq602A+SVtm/wxIWBkD/KCQ==}
+  /@vueuse/core/6.9.2_vue@3.2.19:
+    resolution: {integrity: sha512-FRwl4ccSFuHZBHLGgS9TMv/+Dd6XFaL4o9nph2qtgQIV+z29RBFokw08XjHfykiENRzB01MjYHJ7iRUnsIFQXg==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -753,13 +753,13 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vueuse/shared': 6.5.3_vue@3.2.19
+      '@vueuse/shared': 6.9.2_vue@3.2.19
       vue: 3.2.19
       vue-demi: 0.11.4_vue@3.2.19
     dev: false
 
-  /@vueuse/shared/6.5.3_vue@3.2.19:
-    resolution: {integrity: sha512-ChOKu3mECyZeqGJ/gHVm0CaHoZK5/TwNZr1ZM/aqH+RaRNQvC1qkLf1/8PBugzN3yRgC3BtZ/M1kLpGe/BFylw==}
+  /@vueuse/shared/6.9.2_vue@3.2.19:
+    resolution: {integrity: sha512-lAiMh6XROs0kSKVd0Yb/6GKoQMxC1fYrFDi6opvQWISPtcqRNluRrQxLUZ3WTI78ovtoKRLktjhkFAtydcfFDg==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -3189,7 +3189,7 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /unplugin-auto-import/0.4.10_@vueuse+core@6.5.3+vite@2.6.2:
+  /unplugin-auto-import/0.4.10_@vueuse+core@6.9.2+vite@2.6.2:
     resolution: {integrity: sha512-wLnSQ7pZ/GTQvwSnLrs0Sqwayaha5IlHmpQR9HidvioKTsJTGHsOisu2alFct08plq3jih+j7Te7weVEeJW96g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3200,7 +3200,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.3.0
       '@rollup/pluginutils': 4.1.1
-      '@vueuse/core': 6.5.3_vue@3.2.19
+      '@vueuse/core': 6.9.2_vue@3.2.19
       local-pkg: 0.1.0
       magic-string: 0.25.7
       resolve: 1.20.0
