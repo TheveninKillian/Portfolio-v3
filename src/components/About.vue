@@ -107,4 +107,13 @@ const windowWidth = ref(width)
       top: 0%;
     }
   }
+
+  @media screen and (min-width: 1920px){
+  .wrapper-title{
+    margin-left: calc(50vw - 700px);
+    margin-right: calc(50vw - 700px);
+    margin-top: 5.75rem;
+    margin-bottom: 80px;
+  }
+}
 </style>

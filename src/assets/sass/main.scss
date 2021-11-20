@@ -101,3 +101,10 @@ hr{
 .fade-leave-to {
   opacity: 0;
 }
+
+@media screen and (min-width: 1920px){
+  section{
+    padding-left: calc(50vw - 570px);
+    padding-right: calc(50vw - 570px);
+  }
+}

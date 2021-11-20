@@ -141,4 +141,11 @@ header{
     }
   }
 }
+
+@media screen and (min-width: 1920px){
+  header{
+    padding-left: calc(50vw - 700px);
+    padding-right: calc(50vw - 700px);
+  }
+}
 </style>
