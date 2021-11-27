@@ -1,6 +1,7 @@
 <script setup>
 import { useWindowSize } from 'vue-window-size';
 import { useI18n } from 'vue-i18n'
+import cv from '../assets/Killian_Thevenin_cv.pdf'
 
 const { t } = useI18n()
 
@@ -17,8 +18,12 @@ const windowWidth = ref(width)
     <h1 class="h1">{{ t('title.h1-1') }} <br v-if="windowWidth >= 768 && windowWidth < 1440"> {{ t('title.h1-2') }}, <img display="inline-block" w="30px md:50px" src="../assets/logo.png" alt="logo vue js">ue JS</h1>
   
     <a href="#contact">
-      <button class="btn" m="t-5">{{ t('title.button') }}<ant-design:arrow-right-outlined /></button>
+      <button class="btn" m="t-5">{{ t('title.button') }} <ant-design:arrow-right-outlined /></button>
     </a>
+
+      <a :href="cv" download>
+        <button class="btn" m="l-5">{{ t('title.download') }}</button>
+      </a>
   </div>
 
   <hr>
