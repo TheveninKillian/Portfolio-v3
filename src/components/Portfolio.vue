@@ -52,9 +52,9 @@ const portfolio = reactive({
 
     <div class="portfolio-container">
       <div v-for="(item, key) in portfolio" :key="key">
-        <img :src="item.img" data-aos="zoom-in">
-
         <a :href="item.url">
+          <img :src="item.img" data-aos="zoom-in">
+
           <p class="portfolio-title">{{ item.text }}</p>
         </a>
       </div>
@@ -80,6 +80,10 @@ const portfolio = reactive({
         width: 350px;
         margin-left: auto;
         margin-right: auto;
+
+        &:hover .portfolio-title{
+          text-decoration: underline;
+        }
 
         @include breakpoint(sm){
           width: calc(100% / 2 - 10px);
@@ -135,10 +139,6 @@ const portfolio = reactive({
 
       @include breakpoint(md){
         font-size: 30px;
-      }
-
-      &:hover{
-        text-decoration: underline;
       }
     }
   }
