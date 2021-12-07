@@ -20,7 +20,7 @@ const activeNav = ref(false)
   <header>
     <div class="wrapper">
       <div display="flex">
-        <p class="title" font="medium">Killian Thevenin</p>
+        <p data-text="Killian Thevenin" class="title glitch" font="medium">Killian Thevenin</p>
 
         <div @click="toggleLocales()" cursor="pointer" m="l-5">
           <bi:translate />
@@ -87,6 +87,8 @@ header{
     font-size: 18px;
 
     .title{
+      position: relative;
+      
       color: #fff;
 
       @include breakpoint(md){
